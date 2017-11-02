@@ -4,6 +4,39 @@ function kittens(){
   var kittens = ["Milo", "Otis", "Garfield"]
   return kittens
 }
+
+function destructivelyAppendKitten(name){
+  return kittens = kittens.push(name)
+}
+
+function destructivelyPrependKitten(name){
+  return
+}
+
+function destructivelyRemoveLastKitten(name){
+  return
+}
+
+function destructivelyRemoveFirstKitten(name){
+  return
+}
+
+function appendKitten(name){
+  return
+}
+
+function prependKitten(name){
+  return
+}
+
+function removeLastKitten(name){
+  return
+}
+
+function removeFirstKitten(name){
+  return
+}
+
 /*
 describe('Arrays', function() {
   beforeEach(function() {
